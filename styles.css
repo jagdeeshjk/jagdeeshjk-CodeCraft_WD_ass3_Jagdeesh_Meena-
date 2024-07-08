@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/red-background-comic-style_23-2149034894.jpg?w=996&t=st=1720443005~exp=1720443605~hmac=0cd26b38b0a24dfcdfbd856d610c10ea88d81a82a07d70aaf1f03e2dbaab3a3b");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+   
+    padding: 20px;
+    border-radius: 8px;
+   
+    width: 80%;
+    max-width: 600px;
+}
+
+
+  #heroInfo{
+    color: rgb(17, 198, 222);
+    text-shadow: 0 0 10px #e600ff, 0 0 20px #007bff, 0 0 30px #007bff, 0 0 40px #007bff, 0 0 50px #007bff, 0 0 60px #007bff, 0 0 70px #007bff; /* Multiple shadows to create glowing effect */
+    animation: glowing 1.5s infinite; /* Animation to make the text glow continuously */
+}
+h1 {
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 0, 0.775);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#searchForm{
+    display: flex;
+    justify-content: center;
+    margin: 23px;
+   
+}
+#heroNameInput{
+    margin-right: 5px;
+    border-radius: 3px;
+    border: none;
+   
+    
+}
+#heroDetails {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.stats-container {
+    margin-top: 10px;
+}
+
+.stats-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stats-container li {
+    margin-bottom: 5px;
+}
+
